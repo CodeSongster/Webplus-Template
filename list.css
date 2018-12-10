@@ -1,3 +1,18 @@
 /**
  * listcolumn.htm css
  */
+
+.list-l {
+	float: left;
+	margin-left: 10px;
+	width: 200px;
+	background: orange;
+	min-height: 500px;
+}
+
+.list-r {
+	margin-left: 220px;
+	margin-right: 10px;
+	background: darkorange;
+	min-height: 500px;
+}
