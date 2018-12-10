@@ -1,0 +1,83 @@
+/**
+ * main/listcolumn/displayinfo.htm common css
+ * @author: Yupi Li
+ */
+.wrapper {
+	margin: 0 auto;
+	width: 1002px;
+}
+
+#header {
+	width: 100%;
+	height: 120px;
+	background: red;
+}
+
+#logo {
+	float: left;
+	width: 280px;
+	height: 100%;
+	background: green;
+}
+
+#navbar {
+	width: 100%;
+	height: 48px;
+	background: yellow;
+}
+
+#banner {
+	width: 100%;
+	height: 300px;
+	background: blue;
+}
+
+#aside {
+	
+}
+
+#content {
+	width: 100%;
+	background: #ddd;
+	padding: 15px 0;
+}
+
+.outline {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.outline>span {
+	padding: 5px;
+	border-bottom: 4px solid purple;
+}
+
+.text {
+	margin: 10px;
+}
+
+.text li {
+	margin-bottom: 2px;
+}
+
+.box {
+	float: left;
+	margin-bottom: 15px;
+	background: orange;
+	height: 250px;
+}
+
+#footer {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	background: pink;
+}
+
+#copyright {
+	font-size: 14px;
+}
+
+#copyright>a:hover {
+	color: grey;
+}
