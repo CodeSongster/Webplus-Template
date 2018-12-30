@@ -2,12 +2,11 @@
  * displayinfo.htm css
  * @author: Yupi Li
  */
+#content {
+    min-height: 500px;
+    border-top: 1px solid #3127A2;
+}
 
- #content {
- 	min-height: 500px;
- 	border-top: 1px solid #3127A2;
- }
-
- #content .atitle {
-         font-size: 20px;
- }
+#content .atitle {
+    font-size: 20px;
+}
