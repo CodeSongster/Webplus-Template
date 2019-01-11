@@ -3,51 +3,56 @@
  * @author: Yupi Li
  */
 .wrapper {
-	margin: 0 auto;
-	width: 1002px;
+    margin: 0 auto;
+    width: 1002px;
 }
 
 #header {
-	width: 100%;
-	height: 120px;
-	background: red;
+    width: 100%;
+    height: 120px;
+    background: red;
+	position: relative;
 }
 
 #logo {
-	float: left;
-	width: 280px;
-	height: 100%;
-	background: green;
+    float: left;
+    width: 280px;
+    height: 100%;
+    background: green;
 }
 
 #navbar {
-	width: 100%;
-	padding: 5px;
-	padding-left: 25px;
-	background: yellow;
+    width: 100%;
+    padding: 5px;
+    padding-left: 25px;
+    background: yellow;
 }
 
-#aside {
-
+#search {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
+
+#aside {}
 
 #content {
-	width: 100%;
-	background: #ddd;
-	padding: 15px 0;
+    width: 100%;
+    background: #ddd;
+    padding: 15px 0;
 }
 
 #footer {
-	width: 100%;
-	height: 120px;
-	text-align: center;
-	background: pink;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    background: pink;
 }
 
 #copyright {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 #copyright>a:hover {
-	color: grey;
+    color: grey;
 }
