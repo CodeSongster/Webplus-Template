@@ -3,3 +3,40 @@
  * @author: Yupi Li
  */
 
+#banner {
+	width: 100%;
+	height: 400px;
+    background: blue;
+}
+
+#banner .timer {
+	display: none;
+}
+
+.box {
+	float: left;
+	margin-bottom: 15px;
+	height: 270px;
+    background: orange;
+}
+
+.outline {
+	font-size: 18px;
+	padding: 5px;
+	border-bottom: 3px solid #3127A2;
+}
+
+.outline .title {
+	float: left;
+}
+
+.outline .imore {
+	float: right;
+        font-size: 14px;
+}
+
+.box .list_item {
+	margin-bottom: 2px;
+	font-size: 13px;
+        padding: 5px 0;
+}
