@@ -4,7 +4,7 @@
  */
 .wrapper {
     margin: 0 auto;
-    width: 1002px;
+    width: 1102px;
 }
 
 #header {
@@ -23,8 +23,8 @@
 
 #navbar {
     width: 100%;
-    padding: 5px;
-    padding-left: 25px;
+    padding: 5px 0;
+    /* padding-left: 25px; */
     background: yellow;
 }
 
@@ -34,10 +34,12 @@
     bottom: 10px;
 }
 
-#aside {}
+#aside {
+    width: 20%;
+}
 
 #content {
-    width: 100%;
+    width: 78%;
     background: #ddd;
     padding: 15px 0;
 }
